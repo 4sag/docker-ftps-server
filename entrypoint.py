@@ -15,7 +15,7 @@ USER = os.getenv('USER', 'user')
 PASSWORD = os.getenv('PASSWORD', ''.join(random.choice(chars) for i in range(length)))
 HOST =  os.getenv('HOST','0.0.0.0')
 PORT = 21
-PASSIVE_PORTS = '3000-3010'
+PASSIVE_PORTS = '3020-3030'
 ANONYMOUS = os.getenv('ANONYMOUS', False)
 
 def main():
